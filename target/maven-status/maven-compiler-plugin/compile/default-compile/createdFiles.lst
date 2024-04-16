@@ -1,0 +1,9 @@
+com\kanbanplus\classes\KanbanBoard.class
+com\kanbanplus\classes\PriorityLevel.class
+com\kanbanplus\gui\KanbanBoardGUI.class
+com\kanbanplus\classes\User.class
+com\kanbanplus\database\database.class
+com\kanbanplus\classes\KanbanList.class
+com\kanbanplus\classes\Attachment.class
+com\kanbanplus\classes\Card.class
+com\kanbanplus\classes\Label.class
