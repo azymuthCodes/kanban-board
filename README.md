@@ -1,4 +1,4 @@
-                                                 KANBAN BOARD PLUS
+                                                 📋KANBAN BOARD PLUS
 
 Kanban Board Plus is an advanced task management solution designed to streamline workflow processes and enhance productivity. By combining essential primary functions with additional features, Kanban Board Plus offers users a comprehensive tool for efficient task organization and collaboration.
 
@@ -20,4 +20,3 @@ In addition to its primary function, Kanban Board Plus provides extra functional
 
 • Priority levels: Users should be able to assign priority levels to notes, and they should bubble up in the list accordingly.
 
-• Scripted Behavior based on Tags (Optional): The software should allow simple scripted behaviors based on tag, at least automating moving from list to list. Additionally, the lists themselves should have simple automated behaviour alike tags
