@@ -6,16 +6,20 @@ import org.apache.commons.lang3.SerializationUtils;
 
 public class database{
 
-
     //To open a secured connection to the database
     public static Connection openConnection(){
-        final String url = "jdbc:postgresql://aws-0-ca-central-1.pooler.supabase.com:5432/postgres?user=postgres.kyquptxdyyufsrbbqkyf&password=kanban-plus";
+        
+        final String url = "jdbc:postgresql://localhost/kanbanplus";
+        final String username  = "postgres";
+        final String password = "vignesh3";
         
 
+        
         Connection connect  = null;
-
         try{
-            connect = DriverManager.getConnection(url);
+            
+            Class.forName("org.postgresql.Driver");
+            connect = DriverManager.getConnection(url,username,password);
         }
         catch(Exception e){
             System.out.println("Could not establish connection "+e.getMessage());
